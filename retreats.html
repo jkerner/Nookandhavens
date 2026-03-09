@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join intimate creative workshops, wellness retreats, and immersive experiences. Transform yourself in inspiring spaces with expert facilitators.">
+  <title>Retreats &mdash; Nook &amp; Haven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></a>
+      <ul class="nav__links">
+        <li><a href="stays.html" class="nav__link">Stays</a></li>
+        <li><a href="homes.html" class="nav__link">Homes</a></li>
+        <li><a href="retreats.html" class="nav__link active">Retreats</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero__shape page-hero__shape--1"></div>
+    <div class="page-hero__shape page-hero__shape--2"></div>
+    <div class="page-hero__content container">
+      <span class="section-label">Creative &middot; Wellness &middot; Immersive</span>
+      <h1 class="page-hero__title">Experiences That Stay With You</h1>
+      <p class="page-hero__subtitle">Creative workshops, wellness retreats, and immersive experiences in beautiful spaces. Come as you are, leave transformed.</p>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="section section--white" style="padding-top: 60px;">
+    <div class="container">
+      <div class="filter-bar">
+        <div class="filter-bar__row">
+          <div class="filter-bar__group">
+            <label class="filter-bar__label">Type</label>
+            <select class="filter-bar__select">
+              <option>All Retreats</option>
+              <option>Creative</option>
+              <option>Wellness</option>
+              <option>Culinary</option>
+              <option>Writing</option>
+              <option>Yoga &amp; Meditation</option>
+              <option>Nature</option>
+            </select>
+          </div>
+          <div class="filter-bar__group">
+            <label class="filter-bar__label">Location</label>
+            <input type="text" class="filter-bar__input" placeholder="Search location...">
+          </div>
+          <div class="filter-bar__group">
+            <label class="filter-bar__label">Duration</label>
+            <select class="filter-bar__select">
+              <option>Any Duration</option>
+              <option>Day Retreat</option>
+              <option>Weekend</option>
+              <option>Week-long</option>
+            </select>
+          </div>
+          <button class="btn btn--primary filter-bar__btn">Search</button>
+        </div>
+        <div class="filter-chips">
+          <button class="filter-chip active">All</button>
+          <button class="filter-chip">Creative</button>
+          <button class="filter-chip">Wellness</button>
+          <button class="filter-chip">Culinary</button>
+          <button class="filter-chip">Writing</button>
+          <button class="filter-chip">Art</button>
+          <button class="filter-chip">Yoga</button>
+          <button class="filter-chip">Meditation</button>
+        </div>
+      </div>
+
+      <!-- Retreat Listings -->
+      <div style="display: flex; flex-direction: column; gap: 32px;">
+
+        <!-- Retreat 1 -->
+        <div class="retreat-card">
+          <div class="retreat-card__image" style="background-image: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80'); background-color: var(--color-sand);"></div>
+          <div class="retreat-card__body">
+            <span class="retreat-card__type">Creative Workshop</span>
+            <h3 class="retreat-card__title">The Creative Reset: A Weekend for Makers</h3>
+            <div class="retreat-card__info">
+              <span>Hudson Valley, NY</span>
+              <span>June 14&ndash;16, 2026</span>
+              <span>Led by Sarah Thornton</span>
+            </div>
+            <p class="retreat-card__desc">Reconnect with your creative practice in a historic farmhouse surrounded by rolling hills. Spend three days painting, writing, making&mdash;with no pressure, no social media, and no agenda but rediscovering your joy.</p>
+            <div class="retreat-card__features">
+              <span>All meals included</span>
+              <span>Private studio space</span>
+              <span>Small group (max 12)</span>
+              <span>Beginner-friendly</span>
+            </div>
+            <div class="retreat-card__footer">
+              <span class="retreat-card__price">From $850</span>
+              <div class="btn-group">
+                <a href="#" class="btn btn--sage">Reserve Your Spot</a>
+                <a href="#" class="btn btn--ghost">Learn More <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retreat 2 -->
+        <div class="retreat-card">
+          <div class="retreat-card__image" style="background-image: url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80'); background-color: var(--color-sand);"></div>
+          <div class="retreat-card__body">
+            <span class="retreat-card__type">Wellness</span>
+            <h3 class="retreat-card__title">Still Point: A Mindfulness &amp; Movement Retreat</h3>
+            <div class="retreat-card__info">
+              <span>Berkshires, MA</span>
+              <span>July 10&ndash;13, 2026</span>
+              <span>Led by Maya Chen</span>
+            </div>
+            <p class="retreat-card__desc">Four days of yoga, meditation, breathwork, and nature walks in one of New England's most serene settings. Slow down, tune in, and return to yourself.</p>
+            <div class="retreat-card__features">
+              <span>Daily yoga &amp; meditation</span>
+              <span>Farm-to-table meals</span>
+              <span>Forest bathing walks</span>
+              <span>All levels welcome</span>
+            </div>
+            <div class="retreat-card__footer">
+              <span class="retreat-card__price">From $1,200</span>
+              <div class="btn-group">
+                <a href="#" class="btn btn--sage">Reserve Your Spot</a>
+                <a href="#" class="btn btn--ghost">Learn More <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retreat 3 -->
+        <div class="retreat-card">
+          <div class="retreat-card__image" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80'); background-color: var(--color-sand);"></div>
+          <div class="retreat-card__body">
+            <span class="retreat-card__type">Culinary</span>
+            <h3 class="retreat-card__title">The Slow Table: A Farm-to-Fork Culinary Weekend</h3>
+            <div class="retreat-card__info">
+              <span>Litchfield Hills, CT</span>
+              <span>August 22&ndash;24, 2026</span>
+              <span>Led by Chef Marcus Rivera</span>
+            </div>
+            <p class="retreat-card__desc">Harvest ingredients from the garden, learn from a celebrated chef, and share meals that remind you food is an act of love. Hands-on cooking in a restored stone farmhouse kitchen.</p>
+            <div class="retreat-card__features">
+              <span>Hands-on cooking classes</span>
+              <span>Garden-to-plate ingredients</span>
+              <span>Wine pairings</span>
+              <span>Take-home recipes</span>
+            </div>
+            <div class="retreat-card__footer">
+              <span class="retreat-card__price">From $975</span>
+              <div class="btn-group">
+                <a href="#" class="btn btn--sage">Reserve Your Spot</a>
+                <a href="#" class="btn btn--ghost">Learn More <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retreat 4 -->
+        <div class="retreat-card">
+          <div class="retreat-card__image" style="background-image: url('https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80'); background-color: var(--color-sand);"></div>
+          <div class="retreat-card__body">
+            <span class="retreat-card__type">Writing</span>
+            <h3 class="retreat-card__title">Words &amp; Wilderness: A Writing Retreat</h3>
+            <div class="retreat-card__info">
+              <span>Adirondacks, NY</span>
+              <span>September 5&ndash;10, 2026</span>
+              <span>Led by Claire Beaumont</span>
+            </div>
+            <p class="retreat-card__desc">Six days to write the thing you've been meaning to write. Expert mentorship, structured writing time, and the kind of wilderness that makes words flow. Bring your novel, memoir, poems&mdash;or start something brand new.</p>
+            <div class="retreat-card__features">
+              <span>Daily workshops</span>
+              <span>1-on-1 mentorship</span>
+              <span>Lakeside writing cabin</span>
+              <span>All genres welcome</span>
+            </div>
+            <div class="retreat-card__footer">
+              <span class="retreat-card__price">From $1,650</span>
+              <div class="btn-group">
+                <a href="#" class="btn btn--sage">Reserve Your Spot</a>
+                <a href="#" class="btn btn--ghost">Learn More <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Host a Retreat CTA -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="cta-banner">
+        <span class="section-label" style="color: var(--color-sage-light);">For Facilitators</span>
+        <h2>Have a Retreat Idea?</h2>
+        <p>We're always looking for passionate facilitators to lead transformative experiences. If you have expertise in creative practices, wellness, or unique skills you'd love to share, we'd love to hear from you.</p>
+        <a href="contact.html" class="btn btn--white">Tell Us About Your Retreat Idea</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></div>
+          <p class="footer__tagline">Curators of possibility, believers in the transformative power of place, and your partners in finding where you belong.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">PI</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <a href="stays.html" class="footer__link">Vacation Stays</a>
+          <a href="homes.html" class="footer__link">Homes for Sale</a>
+          <a href="retreats.html" class="footer__link">Retreats</a>
+          <a href="about.html" class="footer__link">Our Story</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Work With Us</h4>
+          <a href="contact.html" class="footer__link">List Your Property</a>
+          <a href="contact.html" class="footer__link">Host a Retreat</a>
+          <a href="homes.html" class="footer__link">The Prince Team</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <a href="#" class="footer__link">FAQs</a>
+          <a href="#" class="footer__link">Terms &amp; Conditions</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Nook &amp; Haven. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curated vacation rentals and unique stays. From coastal cottages to mountain cabins, find thoughtfully chosen homes for your next escape.">
+  <title>Vacation Stays &mdash; Nook &amp; Haven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></a>
+      <ul class="nav__links">
+        <li><a href="stays.html" class="nav__link active">Stays</a></li>
+        <li><a href="homes.html" class="nav__link">Homes</a></li>
+        <li><a href="retreats.html" class="nav__link">Retreats</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Video -->
+  <section class="hero">
+    <video class="hero__video" autoplay muted loop playsinline>
+      <source src="images/stays-hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title hero__title--script">find your next escape</h1>
+      <p class="hero__subtitle">Escape to thoughtfully curated vacation homes and unique stays. From coastal cottages to mountain cabins, find the little nooks where your next memories are made.</p>
+    </div>
+  </section>
+
+  <!-- Featured Rentals -->
+  <section class="section section--white" style="padding-top: 60px;">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 48px;">
+        <h2 class="hero__title--script hero__title--script-sm" style="color: var(--color-dark);">featured rentals</h2>
+      </div>
+      <div class="listings-grid">
+
+        <!-- Listing 1 -->
+        <a href="https://book.hostfully.com/highland-lake-estate/property-details/b39603eb-5688-4796-93d0-19b7ec66f955/Grand%20Ski%20Lodge%20%7C%205%20Mins%20to%20Camelback%20%7C%20Game%20Room" target="_blank" class="listing-card">
+          <div class="listing-card__image" style="background-image: url('images/maple-lodge.jpg'); background-color: var(--color-sand);"></div>
+          <div class="listing-card__header">
+            <p class="listing-card__location">Poconos, PA</p>
+            <h3 class="listing-card__title">Maple Lodge</h3>
+          </div>
+        </a>
+
+        <!-- Listing 2 -->
+        <a href="https://book.hostfully.com/highland-lake-estate/property-details/ba286380-50ec-444c-b23a-d54eab175ab8/Lakefront%20%7C%20Sport%20Courts%20%7C%20HotTub%20%7C%20GameRoom" target="_blank" class="listing-card">
+          <div class="listing-card__image" style="background-image: url('images/highland-lake-estate.jpg'); background-color: var(--color-sand);"></div>
+          <div class="listing-card__header">
+            <p class="listing-card__location">Highland Lake, NY</p>
+            <h3 class="listing-card__title">Highland Lake Estate</h3>
+          </div>
+        </a>
+
+        <!-- Listing 3 -->
+        <a href="https://book.hostfully.com/highland-lake-estate/property-details/0afb9e76-4a49-4222-98c3-29bc1279e253/SwimSpa%20%7C%20Sport%20Courts%20%7C%20Lake%20%7C%20Fishing%20%7C%20Firepit" target="_blank" class="listing-card">
+          <div class="listing-card__image" style="background-image: url('images/garden-cottage.jpg'); background-color: var(--color-sand);"></div>
+          <div class="listing-card__header">
+            <p class="listing-card__location">Highland Lake, NY</p>
+            <h3 class="listing-card__title">The Garden Cottage at Highland Lake</h3>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA: List Your Property -->
+  <section class="cta-video-section">
+    <video class="cta-video-section__video" autoplay muted loop playsinline>
+      <source src="images/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="cta-video-section__overlay"></div>
+    <div class="cta-video-section__content">
+      <h2 class="hero__title--script hero__title--script-sm" style="white-space: nowrap;">have a special place to share?</h2>
+      <p>We're always looking for unique, thoughtfully cared-for properties. If your space has a story, we want to help tell it.</p>
+      <a href="contact.html" class="btn btn--white">List Your Property</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></div>
+          <p class="footer__tagline">Curators of possibility, believers in the transformative power of place, and your partners in finding where you belong.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">PI</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <a href="stays.html" class="footer__link">Vacation Stays</a>
+          <a href="homes.html" class="footer__link">Homes for Sale</a>
+          <a href="retreats.html" class="footer__link">Retreats</a>
+          <a href="about.html" class="footer__link">Our Story</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Work With Us</h4>
+          <a href="contact.html" class="footer__link">List Your Property</a>
+          <a href="contact.html" class="footer__link">Host a Retreat</a>
+          <a href="homes.html" class="footer__link">The Prince Team</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <a href="#" class="footer__link">FAQs</a>
+          <a href="#" class="footer__link">Terms &amp; Conditions</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Nook &amp; Haven. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

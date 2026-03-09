@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Nook and Haven. Whether you're looking for a stay, listing a property, hosting a retreat, or buying a home — we'd love to hear from you.">
+  <title>Contact &mdash; Nook &amp; Haven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></a>
+      <ul class="nav__links">
+        <li><a href="stays.html" class="nav__link">Stays</a></li>
+        <li><a href="homes.html" class="nav__link">Homes</a></li>
+        <li><a href="retreats.html" class="nav__link">Retreats</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="btn btn--primary nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero__shape page-hero__shape--1"></div>
+    <div class="page-hero__shape page-hero__shape--2"></div>
+    <div class="page-hero__content container">
+      <span class="section-label">Get In Touch</span>
+      <h1 class="page-hero__title">Let's Talk</h1>
+      <p class="page-hero__subtitle">Whether you have a question, an idea, or you're ready to get started&mdash;we'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form + Info -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <form class="contact-form" id="contact-form">
+          <h3 style="margin-bottom: 8px;">Send Us a Message</h3>
+          <p style="margin-bottom: 32px; font-size: 0.95rem;">We'll get back to you within 24 hours.</p>
+
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input type="text" id="name" class="form-input" placeholder="First and last name" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="you@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inquiry-type">I'm Interested In</label>
+            <select id="inquiry-type" class="form-select" required>
+              <option value="" disabled selected>Select a topic...</option>
+              <option value="stays">Booking a Vacation Stay</option>
+              <option value="list-property">Listing My Property</option>
+              <option value="homes">Buying or Selling a Home (The Prince Team)</option>
+              <option value="retreats">Attending a Retreat</option>
+              <option value="host-retreat">Hosting a Retreat</option>
+              <option value="general">General Inquiry</option>
+              <option value="press">Press &amp; Partnerships</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Your Message</label>
+            <textarea id="message" class="form-textarea" placeholder="Tell us what's on your mind..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width: 100%; justify-content: center;">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Other Ways to Reach Us</h3>
+          <p>Prefer a more direct approach? Here's how to get in touch with the right person.</p>
+
+          <div class="contact-channels">
+            <div class="contact-channel">
+              <div class="contact-channel__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <p class="contact-channel__label">General Inquiries</p>
+                <p class="contact-channel__value">hello@nookandhaven.co</p>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div>
+                <p class="contact-channel__label">List Your Property</p>
+                <p class="contact-channel__value">properties@nookandhaven.co</p>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <div>
+                <p class="contact-channel__label">The Prince Team (Real Estate)</p>
+                <p class="contact-channel__value">princeteam@nookandhaven.co</p>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div>
+                <p class="contact-channel__label">Host a Retreat</p>
+                <p class="contact-channel__value">retreats@nookandhaven.co</p>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div>
+                <p class="contact-channel__label">Follow Along</p>
+                <p class="contact-channel__value">@nookandhaven</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Preview -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 48px;">
+        <span class="section-label">Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="differentiators">
+        <div class="differentiator">
+          <h3 class="differentiator__title">How do I book a vacation stay?</h3>
+          <p class="differentiator__desc">Browse our Stays page, find a property you love, and click "Check Availability" or "View Details." You can inquire directly through the listing or contact us and we'll help you find the perfect match.</p>
+        </div>
+        <div class="differentiator">
+          <h3 class="differentiator__title">How do I list my property on Nook &amp; Haven?</h3>
+          <p class="differentiator__desc">We'd love to hear about your space! Fill out the contact form above or email properties@nookandhaven.co. We review every property personally to ensure it meets our standards.</p>
+        </div>
+        <div class="differentiator">
+          <h3 class="differentiator__title">What's included in a retreat?</h3>
+          <p class="differentiator__desc">Each retreat is unique, but most include accommodations, meals, guided sessions, materials, and free time for exploration. Check individual retreat pages for full details on what's included.</p>
+        </div>
+        <div class="differentiator">
+          <h3 class="differentiator__title">How does the home buying process work with The Prince Team?</h3>
+          <p class="differentiator__desc">Reach out and we'll schedule a conversation to understand what you're looking for. From there, we'll curate showings, guide you through offers and negotiations, and be with you every step to closing day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></div>
+          <p class="footer__tagline">Curators of possibility, believers in the transformative power of place, and your partners in finding where you belong.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">PI</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <a href="stays.html" class="footer__link">Vacation Stays</a>
+          <a href="homes.html" class="footer__link">Homes for Sale</a>
+          <a href="retreats.html" class="footer__link">Retreats</a>
+          <a href="about.html" class="footer__link">Our Story</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Work With Us</h4>
+          <a href="contact.html" class="footer__link">List Your Property</a>
+          <a href="contact.html" class="footer__link">Host a Retreat</a>
+          <a href="homes.html" class="footer__link">The Prince Team</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <a href="#" class="footer__link">FAQs</a>
+          <a href="#" class="footer__link">Terms &amp; Conditions</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Nook &amp; Haven. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

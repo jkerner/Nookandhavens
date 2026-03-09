@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover your next special place with Nook and Haven. Find vacation rentals, buy your dream home with The Prince Team, or join transformative creative and wellness retreats.">
+  <title>Nook &amp; Haven &mdash; Find Your Next Special Place</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-home">
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></a>
+      <ul class="nav__links">
+<li><a href="stays.html" class="nav__link">Stays</a></li>
+        <li><a href="homes.html" class="nav__link">Homes</a></li>
+        <li><a href="retreats.html" class="nav__link">Retreats</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <video class="hero__video" autoplay muted loop playsinline>
+      <source src="images/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title hero__title--script">find your haven</h1>
+      <p class="hero__subtitle">Whether you're searching for a home to call your own, your next vacation rental, or a retreat to reset your spirit,<br>your perfect space is here.</p>
+      <div class="hero__carousel">
+        <a href="stays.html" class="hero__carousel-item active">Book your escape</a>
+        <a href="homes.html" class="hero__carousel-item">Find your new home</a>
+        <a href="retreats.html" class="hero__carousel-item">Join a retreat</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 48px;">
+        <h2 class="hero__title--script hero__title--script-sm" style="color: var(--color-dark);">what people are saying</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">We've stayed at dozens of vacation rentals, but this one was different. It wasn't just clean and comfortable&mdash;it was thoughtful. Every detail felt intentional. We didn't want to leave.</p>
+          <p class="testimonial-card__author">Sarah M.</p>
+          <p class="testimonial-card__role">Brooklyn, NY</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">The Prince Team didn't just help us find a house; they helped us figure out what home meant to us. Their patience and insight made all the difference.</p>
+          <p class="testimonial-card__author">Michael &amp; Jennifer K.</p>
+          <p class="testimonial-card__role">Home Buyers</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">I came to the writing retreat feeling stuck and left with a finished draft and a renewed sense of purpose. The combination of expert guidance, beautiful surroundings, and genuine community was exactly what I needed.</p>
+          <p class="testimonial-card__author">David L.</p>
+          <p class="testimonial-card__role">Creative Nonfiction Writer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-video-section">
+    <video class="cta-video-section__video" autoplay muted loop playsinline>
+      <source src="images/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="cta-video-section__overlay"></div>
+    <div class="cta-video-section__content">
+      <h2 class="hero__title--script hero__title--script-sm">stay connected</h2>
+      <p>Weekend escapes. Forever homes. Transformative retreats.<br>We help you discover spaces that change how you feel.<br>Sign up for recommendations delivered to your inbox.</p>
+      <form class="newsletter" style="max-width: 440px; margin: 0 auto;" onsubmit="return false;">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo"><img src="files/nook-haven-logo-optimized.png" alt="Nook and Haven"></div>
+          <p class="footer__tagline">Curators of possibility, believers in the transformative power of place, and your partners in finding where you belong.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">PI</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <a href="stays.html" class="footer__link">Vacation Stays</a>
+          <a href="homes.html" class="footer__link">Homes for Sale</a>
+          <a href="retreats.html" class="footer__link">Retreats</a>
+          <a href="about.html" class="footer__link">Our Story</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Work With Us</h4>
+          <a href="contact.html" class="footer__link">List Your Property</a>
+          <a href="contact.html" class="footer__link">Host a Retreat</a>
+          <a href="homes.html" class="footer__link">The Prince Team</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <a href="#" class="footer__link">FAQs</a>
+          <a href="#" class="footer__link">Terms &amp; Conditions</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Nook &amp; Haven. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
